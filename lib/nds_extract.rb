@@ -49,5 +49,6 @@ def total_gross(source)
   while director_index < source.length do
     pp source[director_index][:name]
     director_index += 1
+
   end
 end
