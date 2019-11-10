@@ -51,7 +51,7 @@ def total_gross(source)
     filmography = 0
     while filmography < source[director_index][:title].length
       pp source[director_index][:title]
-      filmography
+      filmography += 1
     end
     director_index += 1
   end
