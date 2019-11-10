@@ -48,6 +48,11 @@ def total_gross(source)
   director_index = 0
   while director_index < source.length do
     pp source[director_index][:name]
+    gross_index = 0
+    while gross index < source[director_index].length do
+      pp source[director_index][:title][gross_index]
+      gross_index += 1
+    end
     director_index += 1
   end
 end
